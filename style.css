@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest Cars of the 21st Century</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Greatest Cars of the 21st Century</h1>
+    </header>
+
+    <section class="car-gallery">
+        <div class="car">
+            <img src="images/mercedes.jpg" alt="Mercedes-Benz" class="car-img" onclick="showDetails('Mercedes-Benz')">
+            <h2>Mercedes-Benz</h2>
+            <button onclick="window.location.href='https://www.mercedes-benz.com'">Visit Mercedes-Benz</button>
+        </div>
+        <div class="car">
+            <img src="images/porsche.jpg" alt="Porsche" class="car-img" onclick="showDetails('Porsche')">
+            <h2>Porsche</h2>
+            <button onclick="window.location.href='https://www.porsche.com'">Visit Porsche</button>
+        </div>
+        <div class="car">
+            <img src="images/ferrari.jpg" alt="Ferrari" class="car-img" onclick="showDetails('Ferrari')">
+            <h2>Ferrari</h2>
+            <button onclick="window.location.href='https://www.ferrari.com'">Visit Ferrari</button>
+        </div>
+    </section>
+
+    <section class="map">
+        <h2>Find Dealerships Nearby</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345098707!2d144.96315781531585!3d-37.81627974202105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f7e1db%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1605052198054!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Greatest Cars of the 21st Century</p>
+    </footer>
+</body>
+</html>
